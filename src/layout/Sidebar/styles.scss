@@ -1,0 +1,101 @@
+.sidebar-desktop{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 40;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    width: 16rem;
+    background-color: black;
+    color: white;
+}
+
+
+.sidebar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+    @media (max-width: 768px) {
+      width: 50px;
+      min-width: 50px;
+    }
+}
+
+.menu-bars-close-btn {
+  font-size: 2rem;
+  background: none;
+  border: none;
+}
+
+.menu-bars-open-btn{
+  font-size: 2rem;
+  position: fixed;
+  top: 0;
+  background: none;
+  border: none;
+  margin-top: 30px;
+}
+
+.nav-menu {
+  background-color: black;
+  width: 250px;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms ease-out;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms ease-out;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  transition: 200ms ease;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: black;
+  width: fit-content;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nav-menu-items-desktop{
+  position: fixed;
+  top: 0;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}

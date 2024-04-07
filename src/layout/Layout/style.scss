@@ -1,0 +1,17 @@
+.container{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background: antiquewhite;
+}
+
+.layout{
+  display: flex;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.main{
+  padding: 30px;
+  width: 100%;
+}

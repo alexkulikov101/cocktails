@@ -1,0 +1,23 @@
+
+.cocktail-info{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+
+
+  @media (max-width: 768px) {
+   flex-direction: column;
+  }
+
+  &-image{
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+
+    @media (max-width: 576px) {
+      max-width: 190px;
+    }
+  }
+
+}
+
