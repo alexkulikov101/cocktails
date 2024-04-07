@@ -12,7 +12,7 @@
       "@routes/*": ["routes/*"],
       "@api/*": ["api/*"],
       "@store/*": ["store/*"],
-      "@types/*": ["types/*"],
+      "@types/*": ["types/*"]
     },
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -24,7 +24,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "suppressImplicitAnyIndexErrors": true,
+    "suppressImplicitAnyIndexErrors": true
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

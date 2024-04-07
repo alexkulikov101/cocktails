@@ -13,11 +13,10 @@ a {
   text-decoration: inherit;
   color: black;
 
-  &.active{
-  color: #646cff;
+  &.active {
+    color: #646cff;
+  }
 }
-}
-
 
 body {
   margin: 0;
@@ -36,30 +35,30 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.flex{
+.flex {
   display: flex;
 }
-.space-between{
+.space-between {
   justify-content: space-between;
 }
 
-p{
+p {
   margin: 0;
 }
 
-.m-1{
+.m-1 {
   margin-bottom: 10px;
 }
 
-.width-full{
+.width-full {
   width: 100%;
 }
 
-.gap-5{
+.gap-5 {
   gap: 50px;
 }
 
-.sr-only{
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;

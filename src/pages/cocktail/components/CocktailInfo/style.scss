@@ -1,15 +1,13 @@
-
-.cocktail-info{
+.cocktail-info {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 
-
   @media (max-width: 768px) {
-   flex-direction: column;
+    flex-direction: column;
   }
 
-  &-image{
+  &-image {
     max-width: 300px;
     height: auto;
     object-fit: contain;
@@ -18,6 +16,4 @@
       max-width: 190px;
     }
   }
-
 }
-
